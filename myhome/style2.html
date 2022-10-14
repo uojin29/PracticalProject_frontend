@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color: #d14836;
+            line-height: 20px;
+            display: block;
+            margin: 8px;
+        }
+        div{
+            display: block;
+        }
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        #top {
+            color: #ffffff;
+            padding: 15px;
+            font-size: 30px;
+            line-height: 26px;
+        }
+        div#top h1 {
+            margin: 0;
+            line-height: 50px;
+        }
+        div#wrapper {
+            position: relative;
+            overflow: auto;
+        }
+        #center {
+            padding: 10px;
+            background-color: #ffffff;
+            font: 80% Verdana;
+        }
+        #center h1, #center h2 {
+            color: #d14836;
+        }
+        a {
+            color: #d14836;
+            text-decoration: none;
+        }
+        #right {
+            width: 190px;
+            float: right;
+        }
+        #menulist {
+            padding: 0;
+            font: 16px verdana;
+        }
+        .menuitem {
+            width: 155px;
+            background-color: #d14836;
+            border: 1px solid #d14836;
+            border-radius: 40px;
+            color: #ffffff;
+            list-style-type: none;
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .menuitem:nth-child(2) {
+            background-color: white;
+            color: #d14836;
+            font-weight: bold;
+        }
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+        #under {
+            background-color: #F6DAD7;
+            color: #d14836;
+            padding: 10px;
+        }
+        #bottom {
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div id="top">
+    <h1>Welcome to JangYujin's Homepage(22000631)</h1>
+    <p>Use the menu to select different Stylesheets</p>
+</div>
+<div id="wrapper">
+    <div id="right">
+        <ul id="menulist">
+            <li class="menuitem" onclick="location.href='stylesheet1.html'">Stylesheet 1</li>
+            <li class="menuitem" onclick="location.href='stylesheet2.html'">Stylesheet 2</li>
+            <li class="menuitem" onclick="location.href='stylesheet3.html'">Stylesheet 3</li>
+            <li class="menuitem" onclick="location.href='stylesheet4.html'">Stylesheet 4</li>
+            <li class="menuitem" onclick="location.href='nostyle.html'">No Stylesheet</li>
+        </ul>
+    </div>
+    <div id="center">
+        <h1>Same Page Different Stylesheets</h1>
+        <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+            <br>
+            <a href="style1.html">Stylesheet1</a>,
+            <a href="style2.html">Stylesheet2</a>,
+            <a href="style3.html">Stylesheet3</a>,
+            <a href="style4.html">Stylesheet4</a>.
+        </p>
+
+        <h2>No Styles</h2>
+        <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+            <br>
+            <a href="nostyle.html">No Stylesheet</a>.
+        </p>
+    </div>
+    <div id="under">
+        <h3>Side-Bar</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+</div>
+<div id="bottom">
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+</div>
+</body>
+</html>
